@@ -3,13 +3,15 @@ import "./Button.css"
 function Button (props){
     const title = props.title;
     const desc = props.desc;
+
     return(
-        <div className='body'>
+    <div className='button'>
         <button className='title'>
             <p>{title}</p>
-            {desc}
+               {desc}
         </button>
-        </div>
+    </div>
     );
+
 }
 export default Button;
